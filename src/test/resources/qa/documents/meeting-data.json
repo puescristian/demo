@@ -1,0 +1,52 @@
+{
+  "Meeting": [
+    {
+      "key": "1",
+      "meetingName": "meeting",
+      "meetingType":"Strategy",
+      "location":"On Site",
+      "startHour": "07:30",
+      "endHour": "08:45",
+      "organizedBy":"Nicole Coleman",
+      "reporter":"James Brooks",
+      "contact": "Charlotte Bell"
+    },
+    {
+      "key": "2",
+      "meetingName": "meeting",
+      "meetingType":"Shareholders",
+      "location":"HQ-01",
+      "startHour": "09:40",
+      "endHour": "10:00",
+      "organizedBy":"Adam Stewart",
+      "reporter":"Jose Hayes",
+      "contact": "Olivia Reed"
+    },
+    {
+      "key": "3",
+      "meetingName": "meeting",
+      "meetingType":"Team Weekly",
+      "location":"HQ-02",
+      "startHour": "15:00",
+      "endHour": "15:25",
+      "organizedBy":"Jason Cooper",
+      "reporter":"Nicholas Garcia",
+      "contact": "Danielle Richardson"
+    },
+    {
+      "key": "4",
+      "meetingName": "meeting",
+      "meetingType":"Customer",
+      "location":"SD-02",
+      "startHour": "11:30",
+      "endHour": "11:45",
+      "organizedBy":"Lillian Cooper",
+      "reporter":"Timothy Bryant",
+      "contact": "Victoria Bailey"
+    }
+
+
+
+
+  ]
+}
