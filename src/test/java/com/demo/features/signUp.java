@@ -26,10 +26,9 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 
 @RunWith(SerenityRunner.class)
-@Narrative(text = {"In order to ....",
-        "As a ....",
-        "I want to be able to ...."})
-@WithTag("login")
+@Narrative(text = {"In order to create a business Unit and schedules a meeting",
+        "As a user",
+        "I want to be able to manage a business unit and schedules a meeting"})
 public class signUp extends BaseConf {
 
     @Before
@@ -42,7 +41,7 @@ public class signUp extends BaseConf {
     }
 
     @Test
-    @WithTagValuesOf({"loginWitCredentials"})
+    @WithTagValuesOf({"meetings"})
     public void should_UserCreateBusinessUnitAndMeetings_When_HeSendsCompleteInformation() throws FileNotFoundException {
 
         Contact contact = ContactFactory.getContactByKeyWithRandomData();
