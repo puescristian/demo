@@ -43,7 +43,7 @@ public class signUp extends BaseConf {
 
     @Test
     @WithTagValuesOf({"loginWitCredentials"})
-    public void should_UserLogInSuccessfully_When_HeSendsCompleteInformation() throws FileNotFoundException {
+    public void should_UserCreateBusinessUnitAndMeetings_When_HeSendsCompleteInformation() throws FileNotFoundException {
 
         Contact contact = ContactFactory.getContactByKeyWithRandomData();
         Meeting meeting = MeetingFactory.getMeetingByKeyWithRandomData();

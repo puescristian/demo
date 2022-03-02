@@ -43,7 +43,7 @@ public class AddAMeeting {
         return Task.where("{0} add a meeting number #number",
                         Click.on(MEETING_NUMBER)
                                 .then(Enter.theValue(number).into(MEETING_NUMBER)))
-                .with("name").of(number);
+                .with("number").of(number);
     }
 
     public static Performable starDate(String date, String hour) {

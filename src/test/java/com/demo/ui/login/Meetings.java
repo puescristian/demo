@@ -32,10 +32,8 @@ public class Meetings {
     public static final Target END_DATE_HOUR = Target.the("End date hour")
             .locatedBy("//input[@name='EndDate']/..//select");
 
-    public static final Target END_DATE_HOUR_OPTION = Target.the("End date hour option")
-            .locatedBy("//input[@name='EndDate']/..//select/option[@value='{0}']");
 
-    public static final Target INPUT_SEARCH_OPTION = Target.the("Search option {0}")
+    public static final Target INPUT_SEARCH_OPTION = Target.the("Search option")
             .locatedBy("//div[@role='option']/../../..//input");
 
     public static final Target LIST_OPTION = Target.the("List option {0}")
