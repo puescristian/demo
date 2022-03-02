@@ -21,6 +21,7 @@ parameters:
     default: qa
     values:
       - qa
+      - pre
 
 steps:
 - task: Gradle@2

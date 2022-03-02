@@ -64,6 +64,12 @@ dependencies {
     testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
 }
 
+test {
+    testLogging.showStandardStreams = true
+    maxParallelForks=1
+    systemProperties System.getProperties()
+}
+
 task regression(type: Test) {
     testLogging.showStandardStreams = true
     maxParallelForks = 1
